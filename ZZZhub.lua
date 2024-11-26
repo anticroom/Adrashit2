@@ -1,8 +1,7 @@
 --[[
- niggers                                                                                                                                                                    
---]]
-
-
+This was sent to me by a random guy but it seems to be safe after a quick look at the code
+He says it's free zzzhub but I never heard of it :/
+]]--
 local L_1_ = "t"
 local L_2_ = game.Players.LocalPlayer:GetMouse()
 L_2_.KeyDown:Connect(
