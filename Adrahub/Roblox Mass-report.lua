@@ -1,5 +1,6 @@
 --[[
-                 THIS IS ONLY SUPPORTED AND TESTED ON XENO
+                 THIS IS ONLY TESTED ON XENO!
+            THIS MAY NOT WORK ON ANY OTHER EXECUTORS
 ]]--
 repeat
     task.wait()
@@ -11,13 +12,13 @@ local localPlayer = players.LocalPlayer
 pcall(function()
     game.StarterGui:SetCore("SendNotification", {
         Title = "Mass-Reporter",
-        Text = "Made by anticroom! Compatible with Xeno",
+        Text = "Made by anticroom!",
         Duration = 6
     })
 end)
 
 
-print("Mass-Reporter loaded successfully.")
+print("Mass-Reporter loaded successfully")
 
 local function reportPlayer(player)
     if player and player ~= localPlayer then
